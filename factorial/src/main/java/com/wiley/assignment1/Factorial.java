@@ -35,10 +35,10 @@ public class Factorial {
 
 		//YOUR CODE STARTS HERE
 
-		 if (scanner.hasNextInt()) { // Checks if the user input is an integer.
-			 this.num = scanner.nextInt();
+		 if (this.scanner.hasNextInt()) { // Checks if the user input is an integer.
+			 this.num = this.scanner.nextInt();
 
-			 if (this.num >= 1 && this.num <= 10) { // Checks if the integer is valid.
+			 if (this.num >= 1 && this.num <= 10) { // Checks if the integer is within the valid.
 				 return this.num;
 			 }
 		 }
